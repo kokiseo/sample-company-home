@@ -547,6 +547,13 @@ footer a:hover {
         z-index: 10;
         display: block;
     }
-
-    
 }
+
+@media (max-width:540px) {
+    .notion dt {
+      width: 25%;
+    }
+    .notion dd {
+      width: 75%;
+    }
+  }
